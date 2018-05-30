@@ -1,3 +1,4 @@
+require 'pry'
 class StaticController < ApplicationController
 
   def students
