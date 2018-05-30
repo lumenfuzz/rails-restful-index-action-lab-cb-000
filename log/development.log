@@ -273,3 +273,8 @@ ActionView::MissingTemplate (Missing template static/students, application/stude
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (45.7ms)
+
+
+Started GET "/students" for 71.12.206.14 at 2018-05-30 13:39:26 +0000
+Processing by StaticController#students as HTML
+  Rendered static/students.html.erb within layouts/application (0.4ms)
